@@ -1,0 +1,40 @@
+/* body set */
+body {
+  padding-top: 60px;
+}
+body.wait, body.wait *{
+    cursor: wait !important;   
+}
+
+/* garis loading set */
+.sideheader {
+  line-height: 0.5;
+  text-align: center;
+  color: #FF9500;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 0;
+  overflow-x: hidden;
+}
+.sideheader span {
+  display: inline-block;
+  position: relative;  
+}
+.sideheader span:before,
+.sideheader span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #FF9500;
+  border-top: 1px solid #FF9500;
+  top: 0;
+  width: 600px;
+}
+.sideheader span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.sideheader span:after {
+  left: 100%;
+  margin-left: 15px;
+}
