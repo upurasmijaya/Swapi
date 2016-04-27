@@ -84,7 +84,7 @@ class Welcome extends CI_Controller {
 		echo $results;
 		
 		if (!is_null($next)) {echo '
-		<div class="sideheader container" id="next" data-next="'.$next.'" onclick="popNext(this);"><span>'.$next.' LOAD MORE</span></div>
+		<div class="sideheader container" id="next" data-next="'.$next.'" onclick="popNext(this);"><span>LOAD MORE</span></div>
 		';}
 
 	}
@@ -142,7 +142,7 @@ class Welcome extends CI_Controller {
 		echo $results;
 		
 		if (!is_null($next)) {echo '
-		<div class="sideheader container" id="next" data-next="'.$next.'" onclick="popNext(this);"><span>'.$next.' LOAD MORE</span></div>
+		<div class="sideheader container" id="next" data-next="'.$next.'" onclick="popNext(this);"><span>LOAD MORE</span></div>
 		';}
 	}
 	
