@@ -47,7 +47,7 @@ class Welcome extends CI_Controller {
 			switch ($path) {
 				case 'people' :
 					$results .= '<h4><a data-view="'.$arr_item['url'].'" data-target="#myModal" onclick="popView(this);">'.$arr_item['name'].'</a></h4>
-						<p>Gender : '.$arr_item['gender'].' | Height : '.$arr_item['gender'].' | Mass : '.$arr_item['gender'].'</p>
+						<p>Gender : '.$arr_item['gender'].' | Height : '.$arr_item['height'].' | Mass : '.$arr_item['mass'].'</p>
 						';
 					break;
 				case 'planets' :
@@ -105,7 +105,7 @@ class Welcome extends CI_Controller {
 			switch ($path) {
 				case 'people' :
 					$results .= '<h4><a data-view="'.$arr_item['url'].'" data-target="#myModal" onclick="popView(this);">'.$arr_item['name'].'</a></h4>
-						<p>Gender : '.$arr_item['gender'].' | Height : '.$arr_item['gender'].' | Mass : '.$arr_item['gender'].'</p>
+						<p>Gender : '.$arr_item['gender'].' | Height : '.$arr_item['height'].' | Mass : '.$arr_item['height'].'</p>
 						';
 					break;
 				case 'planets' :
